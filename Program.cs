@@ -7,7 +7,7 @@ namespace Ovning_7
     {
         static void Main(string[] args)
         {
-            List<double> list = new List<double>();
+            List<string> list = new List<string>();
             Console.Title = "Kalkulator";
             Console.BackgroundColor = ConsoleColor.Magenta;
             // Jag ska göra en kalkulator som ska ha + - * /, jag börjar med en välkomstfras.
@@ -38,7 +38,8 @@ namespace Ovning_7
                         double tal2 = double.Parse(Console.ReadLine());
                         Console.WriteLine($"{tal1}+{tal2}={tal1 + tal2}");
                         double resultTal = tal1 + tal2;// Detta är första menynvalet
-                        list.Add(resultTal); 
+                        var spara = "Uträkning:"+" " + tal1 + "+" + tal2 + "=" + resultTal;
+                        list.Add(spara); 
                         break;
 
 
@@ -48,7 +49,8 @@ namespace Ovning_7
                         double sub2 = double.Parse(Console.ReadLine());
                         Console.WriteLine($"{sub1}-{sub2}={sub1 - sub2}");
                         double resultSub = sub1 - sub2;
-                        list.Add(resultSub);
+                        spara = "Uträkning:" + " " + sub1 + "-" + sub2 + "=" + resultSub;
+                        list.Add(spara);
                         break;
 
                     case "3":
@@ -57,7 +59,8 @@ namespace Ovning_7
                         double faktor2 = double.Parse(Console.ReadLine());
                         Console.WriteLine($"{faktor1}*{faktor2}={faktor1 * faktor2}");
                         double resultFaktor = faktor1 + faktor2;
-                        list.Add(resultFaktor);
+                        spara = "Uträkning:" + " " + faktor1 + "*" + faktor2 + "=" + resultFaktor;
+                        list.Add(spara);
                         break;
 
 
@@ -65,6 +68,7 @@ namespace Ovning_7
                         Console.WriteLine("Skriv in talen du vill räkna ut i division,skriv talen på varsin rad");
                         double div1 = double.Parse(Console.ReadLine());
                         double div2 = double.Parse(Console.ReadLine());
+                        
                         if (div2 == 0)
                         {
                             Console.WriteLine("Inmatning fel, kan ej dela med 0"); 
@@ -74,7 +78,8 @@ namespace Ovning_7
                         {
                             double resultDiv = div1 / div2;
                             Console.WriteLine($"{div1}/{div2}={resultDiv}");
-                            list.Add(resultDiv);
+                            spara = "Uträkning:" + " " + div1 + "/" + div2 + "=" + resultDiv;
+                            list.Add(spara);
                         }
 
                         break;
@@ -82,9 +87,9 @@ namespace Ovning_7
                     case "5":
                         Console.WriteLine($"Historik:\n ");
 
-                        foreach (double i in list)
+                        foreach (var item in list)
                         {
-                            Console.WriteLine(i);
+                            Console.WriteLine(item);
                             Console.WriteLine();
 
                         }
