@@ -1,0 +1,15 @@
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.csproj.AssemblyReference.cache
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.AssemblyInfoInputs.cache
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.AssemblyInfo.cs
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.csproj.CoreCompileInputs.cache
+C:\Users\susan\source\repos\Ovning 7\bin\Debug\net6.0\Ovning 7.exe
+C:\Users\susan\source\repos\Ovning 7\bin\Debug\net6.0\Ovning 7.deps.json
+C:\Users\susan\source\repos\Ovning 7\bin\Debug\net6.0\Ovning 7.runtimeconfig.json
+C:\Users\susan\source\repos\Ovning 7\bin\Debug\net6.0\Ovning 7.dll
+C:\Users\susan\source\repos\Ovning 7\bin\Debug\net6.0\Ovning 7.pdb
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.dll
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\refint\Ovning 7.dll
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.pdb
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\Ovning 7.genruntimeconfig.cache
+C:\Users\susan\source\repos\Ovning 7\obj\Debug\net6.0\ref\Ovning 7.dll
